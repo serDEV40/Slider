@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: -1px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .card {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: rgb(58, 236, 132);
+        padding: 0rem 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .input-bar {
+        border: solid 2px gray;
+        width: 93%;
+        padding: 0.5rem;
+        height: 1.5rem;
+        background-color: #fff;
+    }
+    
+    .btns {
+        padding: 0.5rem 1rem;
+        background-color: rgba(0, 0, 0, 1);
+        color: #fff;
+        border: none;
+        box-shadow: 3px 3px rgba(255, 255, 255, 1);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .btns:first-child {
+        left: 0.5rem;
+    }
+    
+    .btns:last-child {
+        right: 0.5rem;
+    }
+    
+    .btn-groups {
+        gap: 47px;
+        display: flex;
+    }
+    
+    .img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0.60%);
+    }
+</style>
+
+<body>
+    <div class="card">
+        <button class="btns btn-left">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <img src="" class="img">
+        <button class="btns btn-right">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
